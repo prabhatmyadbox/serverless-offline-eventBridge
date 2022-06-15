@@ -6,7 +6,7 @@ const cors = require("cors");
 const aedes = require("aedes");
 const net = require("net");
 const mqtt = require("mqtt");
-const Lambda = require("serverless-offline/dist/lambda").default;
+const Lambda = require("serverless-offline/lambda").default;
 
 class ServerlessOfflineAwsEventbridgePlugin {
   constructor(serverless, options) {
